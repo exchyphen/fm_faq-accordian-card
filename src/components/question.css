@@ -1,0 +1,37 @@
+.dropdown-container {
+    width: 100%;
+    border-bottom: 1px solid var(--color-divider);
+    padding: 10px 0;
+}
+
+.question-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-text-active {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.dropdown-icon {
+    width: 1rem;
+    height: auto;
+    background: url("/images/icon-arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dropdown-icon-active {
+    transform: rotate(180deg);
+}
+
+.dropdown-container:hover {
+    cursor: pointer;
+    color: var(--color-text-red);
+}
+
+.dropdown-container:hover .answer-text {
+    color: var(--color-text-dark-blue);
+}
